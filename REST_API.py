@@ -32,10 +32,6 @@ class Normal(Resource):
         return jsonify({"Abnormal": errors})
 
 
-    def check_input(self):
-        None
-
-
 app = Flask(__name__)
 api = Api(app)
 

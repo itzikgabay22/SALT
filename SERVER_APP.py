@@ -1,6 +1,7 @@
 
 from logging.handlers import RotatingFileHandler
 from REST_API import *
+import CONFIG
 
 
 def init_models_dict():
